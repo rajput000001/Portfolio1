@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>Saurabh Singh- Developer Portfolio</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap" rel="stylesheet">
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+        }
+        body{
+            background-color: rgb(0, 0, 33);
+            color: white;
+            font-family: 'poppins', sans-serif;
+        }
+        nav{
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            height: 80px;
+            background-color: rgb(17, 17, 61);
+        }
+        nav ul{
+            display: flex;
+            justify-content: center;
+        }
+        nav ul li{
+            list-style:none;
+            margin: 23px 0;
+        }
+        nav ul li a{
+            text-decoration: none;
+            margin: 0 23px;
+            color: white;
+        }
+
+        nav ul li a:hover{
+        color: rgb(112, 84, 236);
+        }
+        .left{
+            font-size: 1.5rem;
+        }
+        .firstSection{
+            display: flex;
+            justify-content: space-around;
+            margin: 23px 0;
+        }
+        .leftSection{
+           font-size: 2.5rem;
+           margin: 45px 0;
+        }
+        .firstSection > div{
+            width: 30%;
+        }
+        .rightSection {
+           
+        }
+        #element {
+            color: rgb(169, 5, 169);
+        }
+        .purple{
+            color: rgb(136, 16, 227);
+        }
+        .orange{
+            color: orange;
+        }
+        .secondSection{
+            max-width: 80vw;
+            margin: auto;
+            height: 80vh;
+        }
+        .secondSection h4{
+            font-size: 1.9rem;
+        }
+        .text-gray{
+            color: gray;
+            font-size:medium;
+        }
+    .secondSection{
+       
+        background: white;
+        height: 2px;
+        margin: 100px;
+    }
+.secondSection .box{
+    display: flex;
+        background: white;
+        width: 80vw;
+        height: 2px;
+        margin: 0 100px;
+    }
+    .secondSection .vertical{
+        height: 93px;
+        width: 1px;
+        background-color: white;
+        margin: 0 100px;
+    }
+    .image-top{
+        width: 23px;
+        position: relative;
+        top: -32px;
+        left: -9px;
+    }
+    .vertical-title{
+        position: relative;
+        top: 75px;
+        width: 100px;
+        
+    }
+    .vertical-desc{
+        position: relative;
+        top: 86px;
+        color: gray;
+        width: 150px;
+        font-size: 9px;
+    }
+    </style>
+  </head>
+  <body>
+    <header>
+        <nav>
+            <div class="left">Saurabh Portfolio</div>
+            <a class="right">
+                <ul>
+                    <li><a href="/">Home</a></li>
+                    <li><a href="/">Projects</a></li>
+                    <li><a href="/">About</a></li>
+                    <li><a href="/">Services</a></li>
+                    <li><a href="/">Contact</a></li>
+                    <li><a href="signup.html">SignUp</a></li>
+                    <li><a href="login.html">SignIn</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <main class="firstSection">
+            <div class="leftSection">
+                Hii, My Name Is <span class="purple">Saurabh Singh</span> and i'm a
+                <div>
+                  <div class="orange">
+                    Passionate
+                 </div>
+                 
+                </div>
+                <div class="purple">
+                    <span id="element"></span>
+                </div>
+            </div>
+            <div class="rightSection">
+                <img src="bg.png.png" alt=""width="100%">
+            </div>
+        </section>
+        
+    </main>
+    <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+    <script>
+        var typed = new Typed('#element', {
+          strings: ['Web Developer', 'Web Designer', 'Video Editor','Graphics Designer'],
+          typeSpeed: 40,
+        });
+      </script>
+  </body>
+</html>
